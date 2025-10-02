@@ -64,6 +64,58 @@ const courses = [
     label: "Redux",
     imag: "https://miro.medium.com/1*ZxmcaOzul181U6BT5z-Ipw.png",
   },
+  {
+    label: "TypeScript",
+    imag: "https://blog.teamtreehouse.com/wp-content/uploads/2015/05/87a5a0fdc86455c3f94b0b0eebfdb1b9_400x400.png",
+  },
+  {
+    label: "Angular",
+    imag: "https://miro.medium.com/1*FKD2Uy_Q6r6AviZA2VD4RQ.png",
+  },
+  {
+    label: "Next.js",
+    imag: "https://habrastorage.org/webt/by/f9/qu/byf9qu-qkjvc3cpega2osikmrcq.png",
+  },
+  {
+    label: "jQuery",
+    imag: "https://play-lh.googleusercontent.com/LpgnH_rHqhJzlJ-uWhfMj3w87cu6iWV5m1hr6eos1wmdlqRiF0RsNE1RBmgtsPvyyBI",
+  },
+  {
+    label: "Bootstrap",
+    imag: "https://foni.papik.pro/uploads/posts/2024-09/foni-papik-pro-yzg3-p-kartinki-bootstrap-na-prozrachnom-fone-9.png",
+  },
+  {
+    label: "Express.js",
+    imag: "https://habrastorage.org/webt/bs/np/1r/bsnp1rphnfiib_l1tjzaauvcs48.jpeg",
+  },
+  {
+    label: "Django",
+    imag: "https://habrastorage.org/getpro/habr/upload_files/abf/be3/6be/abfbe36be43231a20c9e22ea056208a8.png",
+  },
+  {
+    label: "Git",
+    imag: "https://static.istories.media/uploaded/images/7762730e1a2a4c948ba90dbe7a365828-1920x960px_1x.jpg",
+  },
+  {
+    label: "Webpack",
+    imag: "https://victoriaweb.me/wp-content/uploads/webpack.jpg",
+  },
+  {
+    label: "Babel",
+    imag: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRMCEBx7_lmnK0LJ26Kn5lCYNF6Gd1oAWBZQ&s",
+  },
+  {
+    label: "ESLint",
+    imag: "https://cdn-images.threadless.com/~tms/eslint/products/1210898/shirt-1573783465-50ad2ccd45d44d2be0884fbef38ee41a.png?v=3&d=g6NvcHOWk6R0cmltksLCgJOmcmVzaXplkIOld2lkdGjLQI8gAAAAAACmaGVpZ2h0y0CPIAAAAAAAqGFsbG93X3VwwpOvY2FudmFzX2NlbnRlcmVkks0EsM0EsIGqYmFja2dyb3VuZKZmZmZmZmaTpnJlc2l6ZZHNAyCAk69jYW52YXNfY2VudGVyZWSTzQMgzQMgpyNmZmZmZmaAk6ZlbmNvZGWSpHdlYnBVgKVmb3JjZcKpb25seV9tZXRhwg==&f=mp",
+  },
+  {
+    label: "Prettier",
+    imag: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5OrDa0PxQ37o380I1VC74RapffCFDjARwCw&s",
+  },
+  {
+    label: "React Native",
+    imag: "https://bobcares.com/wp-content/uploads/2024/02/react-native-1.png",
+  },
 ];
 
 // Завдання
