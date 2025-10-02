@@ -128,12 +128,27 @@ const courses = [
 
 // <ul class="list-js"></ul>
 
-
 // інпут пошуку:
 
 // <label class="label-js">Що шукаємо:
 // <input id="qwe" type="text" class="input-js">
 // </label>
+
+const listEl = document.querySelector(".list-js");
+
+const createMarkUpItem = (arr) => {
+  listEl.innerHTML = arr.map(
+    ({ label, imag }) => `<li class="item">
+    <p class="text">${label}</p>
+    <img src="${imag}" alt="${label}" class="icon">
+</li>`
+  )
+
+  .join("")
+};
+
+
+createMarkUpItem(courses)
 
 // 2. Функція рендеру
 
