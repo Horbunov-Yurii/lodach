@@ -148,7 +148,6 @@ const createMarkUpItem = (arr) => {
 };
 
 
-createMarkUpItem(courses)
 
 // 2. Функція рендеру
 
@@ -172,8 +171,27 @@ createMarkUpItem(courses)
 
 // перерендерити список з відфільтрованими елементами.
 
+
+const inp = document.querySelector('.input-js')
+
+
+inp.addEventListener('input', _.throttle(onInputChange, 50-3000))
+
+function onInputChange (event) {
+   const filter = event.target.value.toLowerCase().trim()
+ const filteredCouses = courses.filter(({label}) => label.toLowerCase().startsWith(filter))
+  createMarkUpItem(filteredCouses)
+
+}
+
+
+
 // 4. Оптимізація
 
 // Щоб уникнути зайвих викликів під час швидкого набору тексту:
 
 // використати бібліотеку lodash та метод debounce або throttle для оптимізації роботи колбек-функції.
+
+
+
+createMarkUpItem(courses)
